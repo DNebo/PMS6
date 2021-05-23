@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="ua.kpi.comsys.iv8121.pms.ui.lab1.First"
+        android:label="@string/title_lab1"
+        tools:layout="@layout/l1_lay" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="ua.kpi.comsys.iv8121.pms.ui.lab2.Second"
+        android:label="@string/title_lab2"
+        tools:layout="@layout/l2_lay" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="ua.kpi.comsys.iv8121.pms.ui.lab3.Third"
+        android:label="@string/title_lab3"
+        tools:layout="@layout/l3_lay" />
+
+    <fragment
+        android:id="@+id/navigation_images"
+        android:name="ua.kpi.comsys.iv8121.pms.ui.lab5.Fifth"
+        android:label="@string/title_lab5"
+        tools:layout="@layout/l5_lay" />
+</navigation>
